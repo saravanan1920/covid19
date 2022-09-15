@@ -10,12 +10,13 @@ mydb=mysql.connector.connect(
 )
 mycursor=mydb.cursor()
 #*******************************************************************************************************************
-
+print("-----------------------------------------------------------------")
 print("*****************************************************************")
 print("COVID19 VECCINATION RECORD")
-print("*****************************************************************")
+print("-----------------------------------------------------------------")
 
 
+print("-------------------------------------")
 print("SELECT YOUR CHOOSE")
 print("-------------------------------------")
 print("press 1|Add a New Member")
@@ -24,6 +25,7 @@ print("press 3|state covid status record")
 print("press 4|view member")
 print("press 5|view vaccination dose record")
 print("press 6|show state covid status record ")
+print("--------------------------------------")
 print("--------------------------------------")
 
 #Add a New Member
